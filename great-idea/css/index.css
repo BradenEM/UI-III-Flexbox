@@ -177,9 +177,6 @@ header nav {
   display: flex;
 }
 
-header nav a {
-}
-
 .shout {
   display: flex;
   flex-direction: column;
@@ -283,11 +280,12 @@ footer h2 {
 
 .middle-services {
   display: flex;
-  align-content: center;
+  align-content: space-evenly;
   flex-wrap: wrap;
   border-bottom: solid black 2px;
   margin-top: 20px;
   justify-content: space-evenly;
+  padding-bottom: 20px;
 }
 
 .paragraph {
@@ -296,10 +294,43 @@ footer h2 {
 }
 
 .description {
-  width: 400px;
+  width: auto;
 }
 
 div.box {
-  background-color: gray;
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
   width: 450px;
+  padding: 15px;
+  margin: 20px;
+  height: 225px;
+  border: 1px solid black;
+  text-align: justify;
+}
+
+.learn-more {
+  background-color: whitesmoke;
+  width: 30%;
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+
+.bottom-services {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+li {
+  list-style-type: disc;
+  list-style-position: inside;
+  margin: 10px;
+}
+
+.facts {
+  text-align: justify;
+  width: 90%;
 }
